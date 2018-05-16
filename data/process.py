@@ -1,6 +1,9 @@
 #coding:utf-8
 
 def t_2_s(seq):
+    
+    seq = seq.replace('花贝','花呗')
+    seq = seq.replace('花坝','花呗')
     seq = seq.replace('唄','呗')
     seq = seq.replace('車','车')
     seq = seq.replace('嗎','吗')
